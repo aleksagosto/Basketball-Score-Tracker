@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-image: url(https://media.istockphoto.com/id/174665392/photo/wooden-basketball-floor-shot-overhead-at-diagonal.jpg?s=612x612&w=0&k=20&c=reLGT6R1mRfeBxvPw11A7QcSwSqfc6iCNCytQPQTivY=);
+    background-size: cover;
+}
+
+.bottom-buttons {
+    margin: auto;    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 2px;   
+}
+
+h3 {
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+
+#score-display-home, #score-display-guest {
+    background-color: black;
+    border-radius: 10px;
+    color: #F94F6D;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-family: 'alarm clock', sans-serif;
+}
+
+button {
+    background-color: #f57e42;
+    font-family: 'alarm clock', sans-serif;
+    font-size: 30px;
+    color: white;
+    border: 3px solid white ;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#clear {
+    margin-top: 15px;
+    text-align: center;
+    background: green;
+    padding: 0 20px 0 25px;
+    font-size: 40px;
+}
+
